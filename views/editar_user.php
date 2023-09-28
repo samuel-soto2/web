@@ -56,3 +56,37 @@ $usuario = mysqli_fetch_assoc($resultado);
                                 <label for="username">Correo:</label><br>
                                 <input type="email" name="correo" id="correo" class="form-control" placeholder="" value="<?php echo $usuario['correo'];?>">
                             </div>
+                            <div class="form-group">
+                                  <label for="telefono" class="form-label">Telefono *</label>
+                                <input type="tel"  id="telefono" name="telefono" class="form-control" value="<?php echo $usuario['telefono'];?>" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña:</label><br>
+                                <input type="password" name="password" id="password" class="form-control" value="<?php echo $usuario['password'];?>" required>
+                                <input type="hidden" name="accion" value="editar_registro">
+                                <input type="hidden" name="id" value="<?php echo $id;?>">
+                            </div>
+                      
+                        
+                           <br>
+
+                                <div class="mb-3">
+                                    
+                                <button type="submit" class="btn btn-success" >Editar</button>
+                               <a href="user.php" class="btn btn-danger">Cancelar</a>
+                               
+                            </div>
+                            </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+
