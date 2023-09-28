@@ -24,3 +24,11 @@
                                 <label for="correo">Usuario:</label><br>
                                 <input type="text" name="nombre" id="nombre" class="form-control" required>
                             </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña:</label><br>
+                                <input type="password" name="password" id="password" class="form-control" required>
+                                <input type="hidden" name="accion" value="acceso_user">
+                            </div>
+                            <div class="form-group">
+                             <br>
+                    <center>
