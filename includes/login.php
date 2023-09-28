@@ -17,3 +17,10 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <br>
+                        <br>
+                                    <h3 class="text-center">Iniciar Sesión</h3>
+                       <br>
+                            <div class="form-group">
+                                <label for="correo">Usuario:</label><br>
+                                <input type="text" name="nombre" id="nombre" class="form-control" required>
+                            </div>
