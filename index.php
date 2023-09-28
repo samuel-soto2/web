@@ -35,6 +35,31 @@
                                 <input type="tel"  id="telefono" name="telefono" class="form-control" required>
                                 
                             </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña:</label><br>
+                                <input type="password" name="password" id="password" class="form-control" required>
+                            </div>
+                      
+                        
+                           <br>
+
+                                <div class="mb-3">
+                                    
+                               <input type="submit" value="Guardar"class="btn btn-success" 
+                               name="registrar">
+                               <a href="./views/user.php" class="btn btn-danger">Cancelar</a>
+                               
+                            </div>
+                            </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
 
 
 </body>
