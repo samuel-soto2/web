@@ -34,4 +34,31 @@ error_reporting(0);
        </a>
        <a class="btn btn-warning" href="../includes/_sesion/cerrarSesion.php">Log Out <i class="fa fa-power-off" aria-hidden="true"></i></a>
 		</div>
+        <br>
+
+
+
+
+           <br>
+
+
+			</form>
         
+        
+ 
+      <table class="table table-striped table-dark " id= "table_id">
+
+                   
+                         <thead>    
+                         <tr>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Password</th>
+                        <th>Telefono</th>
+                        <th>Fecha</th>
+                        <th>Acciones</th>
+         
+                        </tr>
+                        </thead>
+                        <tbody>
+
