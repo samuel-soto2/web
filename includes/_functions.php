@@ -51,7 +51,6 @@ function eliminar_registro() {
     header('Location: ../views/user.php');
 
 }
-
 function acceso_user() {
     $nombre=$_POST['nombre'];
     $password=$_POST['password'];
@@ -76,6 +75,10 @@ function acceso_user() {
 
   
 }
+
+
+
+
 
 
 
