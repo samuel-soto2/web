@@ -25,3 +25,13 @@ error_reporting(0);
 </head>
 
 <div class="container is-fluid">
+<div class="col-xs-12">
+		<h1>Lista de usuarios</h1>
+    <br>
+		<div>
+			<a class="btn btn-success" href="../index.php">Nuevo usuario 
+      <i class="fa fa-plus"></i>
+       </a>
+       <a class="btn btn-warning" href="../includes/_sesion/cerrarSesion.php">Log Out <i class="fa fa-power-off" aria-hidden="true"></i></a>
+		</div>
+        
