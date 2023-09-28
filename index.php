@@ -20,6 +20,12 @@
                     <div id="login-box" class="col-md-12">
                     
                             <br>
+                            <br>
+                            <h3 class="text-center">Registro de nuevo usuario</h3>
+                            <div class="form-group">
+                            <label for="nombre" class="form-label">Nombre *</label>
+                            <input type="text"  id="nombre" name="nombre" class="form-control" required>
+                            </div>
 
 
 </body>
