@@ -26,6 +26,15 @@
                             <label for="nombre" class="form-label">Nombre *</label>
                             <input type="text"  id="nombre" name="nombre" class="form-control" required>
                             </div>
+                            <div class="form-group">
+                                <label for="username">Correo:</label><br>
+                                <input type="email" name="correo" id="correo" class="form-control" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                  <label for="telefono" class="form-label">Telefono *</label>
+                                <input type="tel"  id="telefono" name="telefono" class="form-control" required>
+                                
+                            </div>
 
 
 </body>
